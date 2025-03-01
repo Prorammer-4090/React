@@ -13,9 +13,7 @@
   <div class="app-container">
     <aside class="sidebar">
       <div class="logo">
-        <svg viewBox="0 0 24 24" class="logo-icon">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
+        <img src="pinocchio.png" alt="Pinocchio Logo" class="logo-icon">
         <h1>Pinocchio</h1>
       </div>
       <nav class="nav-menu">
@@ -33,7 +31,7 @@
         </a>
         <a href="#" class="nav-item" data-tab="graph-view">
           <svg viewBox="0 0 24 24" class="nav-icon">
-            <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2L7 10l-5 7h22L14 6z"></path>
+            <path d="M17 12c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3zM7 12c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3zM12 2C9.24 2 7 4.24 7 7s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM12 10c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"></path>
           </svg>
           Graph View
         </a>
@@ -49,12 +47,12 @@
       <header class="top-bar">
         <div class="tab-title">Fact Check</div>
         <div class="theme-toggle">
-          <span>Dark</span>
+          <span class="theme-icon">🌞</span>
           <label class="switch">
             <input type="checkbox" id="theme-switch">
             <span class="slider round"></span>
           </label>
-          <span>Light</span>
+          <span class="theme-icon">🌙</span>
         </div>
       </header>
       
@@ -223,7 +221,7 @@
             <div class="zoom-controls">
               <button id="zoom-in" class="zoom-btn">+</button>
               <button id="zoom-out" class="zoom-btn">-</button>
-              <button id="reset-zoom" class="zoom-btn">Reset</button>
+              <button id="reset-zoom" class="zoom-btn"></button>
             </div>
           </div>
           
